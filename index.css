@@ -1,12 +1,17 @@
+@font-face {
+  font-family: jBmono;
+  src: url('JetBrainsMono-Regular.woff2') format('woff2');
+}
+
 body, html {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: jBmono;
   color: #fff;
 }
 
 body {
-  background: url(./images/bg01.jpg) no-repeat center center fixed;
+  background: url(./images/background.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -61,7 +66,7 @@ header > h1 {
   font-weight: bold;
   border-radius: 1em;
   background-color: #000a;
-  color: #fff;
+  color: #7cfbc8;
   padding: 0.3em 0.6em;
   border: 1px solid #fffa;
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
@@ -77,7 +82,7 @@ ul {
 }
 
 ul > li {
-  background-color: #fffa;
+  background-color: rgba(221, 255, 227, 0.509);
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   border-radius: 10em;
